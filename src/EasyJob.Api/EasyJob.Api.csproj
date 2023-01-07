@@ -14,4 +14,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyJob.Application\EasyJob.Application.csproj" />
+  </ItemGroup>
+
 </Project>
