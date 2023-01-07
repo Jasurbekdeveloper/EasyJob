@@ -1,0 +1,14 @@
+Easy Job - (oson ish top)
+
+Foydalanuvchilar:
+1. Candidate
+2. Interviewer
+3. Company
+4. Admin
+5. Content
+
+Candidate:
+1. Ro'yxatdan o'tish va tizimga kirish
+2. Interview topshira olish
+3. Resume shakllantirish
+4. O'ziga roadmap belgilash
