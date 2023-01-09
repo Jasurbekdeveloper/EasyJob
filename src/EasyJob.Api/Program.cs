@@ -1,3 +1,5 @@
+using EasyJob.Api.Extensions;
+
 namespace EasyJob.Api;
 
 public class Program
@@ -5,6 +7,8 @@ public class Program
     public static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddDbContexts(builder.Configuration);
 
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
