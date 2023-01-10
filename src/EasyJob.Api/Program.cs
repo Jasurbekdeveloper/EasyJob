@@ -8,7 +8,10 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddDbContexts(builder.Configuration);
+        builder.Services
+            .AddDbContexts(builder.Configuration)
+            .AddInfrastructure()
+            .AddApplication();
 
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
