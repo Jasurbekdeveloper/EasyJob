@@ -1,5 +1,7 @@
-﻿namespace EasyJob.Infrastructure.Repositories.Users;
+﻿using EasyJob.Domain.Entities.Users;
 
-public interface IUserRepository
+namespace EasyJob.Infrastructure.Repositories.Users;
+
+public interface IUserRepository : IGenericRepository<User, Guid>
 {
 }
